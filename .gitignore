@@ -3,6 +3,9 @@
 # ...then opt in the files we want to include ("exclude from ignorance")
 # ...preferably this one, so I can see the list:
 !.gitignore
+# The readable text files:
+!README*
+!COPYING
 # and now the music:
 # (make sure to include the extension to avoid extraneous .bak)
 
