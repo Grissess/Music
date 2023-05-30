@@ -1,0 +1,19 @@
+# Ignore everything by default (trust me, you don't want the chaff)
+*
+# ...then opt in the files we want to include ("exclude from ignorance")
+# ...preferably this one, so I can see the list:
+!.gitignore
+# and now the music:
+# (make sure to include the extension to avoid extraneous .bak)
+
+# "melody"
+!a02*.mmpz
+
+# "test"
+!a10*.mmpz
+
+# "peace"
+!a20*.mmpz
+
+# "test"
+!a29*.mmpz
